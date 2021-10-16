@@ -1,0 +1,39 @@
+:root{
+    --verde-principal:#1A7E91;
+    --verde-secundario:#2190A3;
+    --verde-super-claro:#EFFAF7;
+    --naranja:#EE583E;
+    --blanco:#ffffff;
+    --negro:#000000;
+
+}
+.main-figuras{
+    width: 100%;
+    height: 800px;
+    background: var(--verde-principal);
+    color: var(--blanco);
+    padding: 0px 50px;
+}
+.container__figuras{
+    display: flex;
+    justify-content: space-around;
+}
+.main-figuras h1{
+    text-align: center;
+    padding: 40px;
+}
+.container__figuras-cuadrado{
+    width: 40%;
+    border: 3px solid #F7DF1E;
+    border-radius: 25px;
+    padding: 20px 40px;
+}
+.container__figuras-cuadrado button{
+    margin: 20px 20px 0px 0px;
+}
+.container__figuras-cuadrado p{
+    font-size: 35px;
+}
+.container__figuras-cuadrado input{
+    width: 300px;
+}
